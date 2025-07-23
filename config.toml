@@ -1,0 +1,15 @@
+[paths]
+rdf_dirs = [
+    "data/articles/resourcedump_000130/rdf",
+    "data/articles/resourcedump_000700/rdf",
+    "data/articles/resourcedump_001367/rdf"
+]
+test_sample = "data/articles/resourcedump_001367/test_sample"
+tokens = "data/tokens"
+minhash_signatures = "data/minhash"
+
+[lsh]
+num_perm = 128             # Number of permutations for MinHash signatures
+threshold = 0.5            # Similarity threshold for MinHashLSH and LSHEnsemble
+forest_k = 10              # Top-k results to return in LSHForest queries
+ensemble_num_partitions = 32   # Number of partitions for LSHEnsemble
