@@ -27,6 +27,7 @@ dependencies = [
     "nltk>=3.9.1",
     "fugashi[unidic-lite]>=1.5.1",
     "mecab>=0.996.11",
+    "faiss-cpu>=1.11.0.post1",
 ]
 
 [dependency-groups]
