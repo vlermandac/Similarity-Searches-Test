@@ -61,7 +61,7 @@ if __name__ == "__main__":
     with open(json_paths[3], "r") as f:
         jp_words = json.load(f)
 
-    create_and_store_minhash_signatures(en_k_shingles, minhash_sig_path)
-    create_and_store_minhash_signatures(jp_k_shingles, minhash_sig_path)
-    create_and_store_minhash_signatures(en_words, minhash_sig_path)
-    create_and_store_minhash_signatures(jp_words, minhash_sig_path)
+    create_and_store_minhash_signatures(en_k_shingles, Path(minhash_sig_path))
+    create_and_store_minhash_signatures(jp_k_shingles, Path(minhash_sig_path))
+    create_and_store_minhash_signatures(en_words, Path(minhash_sig_path))
+    create_and_store_minhash_signatures(jp_words, Path(minhash_sig_path))
