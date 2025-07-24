@@ -30,7 +30,7 @@ It takes ~43 minutes to classify all the articles in a M1 macbook air 8GB RAM.
 5. HNSW (Hierarchical Navigable Small World)
 
 ## Evaluation
-- Create benchmark using LLM.
+- Create benchmark using LLM or by hand.
   - Classification article - topic.
   - Annotate really similar articles.
 
