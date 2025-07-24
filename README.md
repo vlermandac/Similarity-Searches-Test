@@ -11,6 +11,15 @@ The keyBERT library was used to extract keywords from the abstracts of the artic
 
 It takes ~43 minutes to classify all the articles in a M1 macbook air 8GB RAM.
 
+| Field                       | Count |
+|-----------------------------|-------|
+| Medical and Health Sciences | 1003  |
+| Social Sciences             | 992   |
+| Arts and Humanities         | 455   |
+| Engineering and Technology  | 249   |
+| Natural Sciences            | 238   |
+| Agricultural Sciences       | 87    |
+
 ## Indexes to test
 ### Based on Jaccard (Set) Similarity
 1. LSH (Locality Sensitive Hashing) + minhash
