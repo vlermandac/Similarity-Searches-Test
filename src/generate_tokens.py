@@ -61,4 +61,4 @@ if __name__ == "__main__":
     test_sample = [ROOT_DIR / Path(config["paths"]["test_sample"])]
     token_path = Path("data/tokens/")
 
-    generate_and_store_tokens(test_sample, token_path)
+    generate_and_store_tokens(rdf_dirs, token_path)

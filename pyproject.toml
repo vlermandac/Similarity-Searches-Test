@@ -28,6 +28,7 @@ dependencies = [
     "fugashi[unidic-lite]>=1.5.1",
     "mecab>=0.996.11",
     "faiss-cpu>=1.11.0.post1",
+    "rich>=14.0.0",
 ]
 
 [dependency-groups]
